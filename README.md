@@ -1,6 +1,6 @@
 # Next.js + Fleek Starter Kit
 
-![preview](./.github/preview.png)
+![image](https://github.com/fleekxyz/nextjs-template/assets/73345016/a9258a1f-5c2d-438d-8674-61a6293d3e4a)
 
 ## 🚀 Project Structure
 
