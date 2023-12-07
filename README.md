@@ -6,7 +6,7 @@
 
 Inside of your Next.js project, you'll see the following folders and files:
 
-```
+```text
 /
 ├── public/
 │   └── favicon.svg
@@ -44,7 +44,7 @@ All commands are run from the root of the project, from a terminal:
 
 You can configure this site deployment using [Fleek CLI]() and running:
 
-```
+```text
  > fleek sites init
    WARN! Fleek CLI is in beta phase, use it under your own responsibility
    ? Choose one of the existing sites or create a new one. › 
@@ -61,13 +61,13 @@ It will prompt you for a `name`, `dist` directory location & `build command`
 
 After configuiring your `fleek.json` file, you can deployt the site by running
 
-```
+```text
 fleek sites deploy
 ```
 
 After running it you will get an output like this:
 
-```
+```text
  WARN! Fleek CLI is in beta, use it at your own discretion
  > Success! Deployed!
  > Site IPFS CID: QmP1nDyoHqSrRabwUSrxRV3DJqiKH7b9t1tpLcr1NTkm1M
@@ -97,7 +97,6 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
-
 ```
 
 You can find more information about static builds in [Next Documentation](https://nextjs.org/docs/app/building-your-application/deploying/static-exports#configuration)
