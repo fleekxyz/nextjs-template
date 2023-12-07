@@ -6,7 +6,7 @@
 
 Inside of your Next.js project, you'll see the following folders and files:
 
-```
+```text
 /
 ├── public/
 │   └── favicon.svg
@@ -26,7 +26,6 @@ If you want to lern more about the `app` router you can checkout [Next.js docume
 
 Any static assets, like images, can be placed in the `public/` directory.
 
-
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
@@ -41,27 +40,34 @@ All commands are run from the root of the project, from a terminal:
 
 ## ⚡ How to deploy to Fleek
 
-### 1. Create a `fleek.json` config file:
-You can configure this site deployment using [Fleek CLI]() and running:
-```
+### 1. Create a `fleek.json` config file
+
+You can configure this site deployment using [Fleek CLI](https://docs.fleek.co/fleek-cli/overview/) and running:
+
+```text
  > fleek sites init
    WARN! Fleek CLI is in beta phase, use it under your own responsibility
    ? Choose one of the existing sites or create a new one. › 
    ❯ Create a new site
 ```
+
 It will prompt you for a `name`, `dist` directory location & `build command`
+
 - `name`: How you want to name the site
 - `dist`: The output directory where the site is located, for this template it's `out`
 - `build command`: Command to build your site, this will be used to deploy the latest version either by CLI or Github Actions
 
 ### 2. Deploy the site
+
 After configuiring your `fleek.json` file, you can deployt the site by running
 
-```
+```text
 fleek sites deploy
 ```
+
 After running it you will get an output like this:
-```
+
+```text
  WARN! Fleek CLI is in beta, use it at your own discretion
  > Success! Deployed!
  > Site IPFS CID: QmP1nDyoHqSrRabwUSrxRV3DJqiKH7b9t1tpLcr1NTkm1M
@@ -71,11 +77,11 @@ After running it you will get an output like this:
  ```
 
 ### Extra features
+
 - **Continuous Integration (CI):** `fleek sites ci` [Documentation.](https://docs.fleek.xyz/services/sites/#continuous-integration-ci)
 - **Adding custom domains:** `fleek domains create` [Documentation.](https://docs.fleek.xyz/services/domains/)
 
-
-### Keep in mind:
+### Keep in mind
 
 This template has been configured to produce a static output.
 
@@ -91,13 +97,10 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
-
 ```
 
 You can find more information about static builds in [Next Documentation](https://nextjs.org/docs/app/building-your-application/deploying/static-exports#configuration)
 
-
 ## 👀 Want to learn more?
 
 Feel free to check [Next.js documentation](https://nextjs.org/docs) or jump into Next.js [learning platform](https://nextjs.org/learn/foundations/about-nextjs?utm_source=next-site&utm_medium=nav-cta&utm_campaign=next-website).
-
