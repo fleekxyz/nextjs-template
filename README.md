@@ -40,7 +40,7 @@ All commands are run from the root of the project, from a terminal:
 
 ## ⚡ How to deploy to Fleek
 
-### 1. Create a `fleek.json` config file:
+### 1. Create a `fleek.json` config file
 
 You can configure this site deployment using [Fleek CLI](https://docs.fleek.co/fleek-cli/overview/) and running:
 
@@ -81,7 +81,7 @@ After running it you will get an output like this:
 - **Continuous Integration (CI):** `fleek sites ci` [Documentation.](https://docs.fleek.xyz/services/sites/#continuous-integration-ci)
 - **Adding custom domains:** `fleek domains create` [Documentation.](https://docs.fleek.xyz/services/domains/)
 
-### Keep in mind:
+### Keep in mind
 
 This template has been configured to produce a static output.
 
