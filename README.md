@@ -42,7 +42,7 @@ All commands are run from the root of the project, from a terminal:
 
 ### 1. Create a `fleek.json` config file:
 
-You can configure this site deployment using [Fleek CLI]() and running:
+You can configure this site deployment using [Fleek CLI](https://docs.fleek.co/fleek-cli/overview/) and running:
 
 ```text
  > fleek sites init
